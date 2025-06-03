@@ -124,7 +124,7 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => {
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/avatargroup",
+				uri: "nuxtui://components/avatar-group",
 				name: "AvatarGroup",
 				description: "AvatarGroup component from Nuxt UI",
 				mimeType: "text/html"
@@ -148,7 +148,7 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => {
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/buttongroup",
+				uri: "nuxtui://components/button-group",
 				name: "ButtonGroup",
 				description: "ButtonGroup component from Nuxt UI",
 				mimeType: "text/html"
@@ -190,13 +190,13 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => {
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/colorpicker",
+				uri: "nuxtui://components/color-picker",
 				name: "ColorPicker",
 				description: "ColorPicker component from Nuxt UI",
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/commandpalette",
+				uri: "nuxtui://components/command-palette",
 				name: "CommandPalette",
 				description: "CommandPalette component from Nuxt UI",
 				mimeType: "text/html"
@@ -208,7 +208,7 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => {
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/contextmenu",
+				uri: "nuxtui://components/context-menu",
 				name: "ContextMenu",
 				description: "ContextMenu component from Nuxt UI",
 				mimeType: "text/html"
@@ -220,7 +220,7 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => {
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/dropdownmenu",
+				uri: "nuxtui://components/dropdown-menu",
 				name: "DropdownMenu",
 				description: "DropdownMenu component from Nuxt UI",
 				mimeType: "text/html"
@@ -232,7 +232,7 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => {
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/formfield",
+				uri: "nuxtui://components/form-field",
 				name: "FormField",
 				description: "FormField component from Nuxt UI",
 				mimeType: "text/html"
@@ -250,13 +250,13 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => {
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/inputmenu",
+				uri: "nuxtui://components/input-menu",
 				name: "InputMenu",
 				description: "InputMenu component from Nuxt UI",
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/inputnumber",
+				uri: "nuxtui://components/input-number",
 				name: "InputNumber",
 				description: "InputNumber component from Nuxt UI",
 				mimeType: "text/html"
@@ -280,7 +280,7 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => {
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/navigationmenu",
+				uri: "nuxtui://components/navigation-menu",
 				name: "NavigationMenu",
 				description: "NavigationMenu component from Nuxt UI",
 				mimeType: "text/html"
@@ -292,7 +292,7 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => {
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/pininput",
+				uri: "nuxtui://components/pin-input",
 				name: "PinInput",
 				description: "PinInput component from Nuxt UI",
 				mimeType: "text/html"
@@ -310,7 +310,7 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => {
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/radiogroup",
+				uri: "nuxtui://components/radio-group",
 				name: "RadioGroup",
 				description: "RadioGroup component from Nuxt UI",
 				mimeType: "text/html"
@@ -322,7 +322,7 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => {
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/selectmenu",
+				uri: "nuxtui://components/select-menu",
 				name: "SelectMenu",
 				description: "SelectMenu component from Nuxt UI",
 				mimeType: "text/html"
@@ -340,7 +340,7 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => {
 				mimeType: "text/html"
 			},
 			{
-				uri: "nuxtui://components/slideover",
+				uri: "nuxtui://components/slide-over",
 				name: "Slideover",
 				description: "Slideover component from Nuxt UI",
 				mimeType: "text/html"

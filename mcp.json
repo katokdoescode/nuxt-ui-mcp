@@ -1,0 +1,29 @@
+{
+	"name": "Nuxt UI MCP",
+	"description": "MCP server for Nuxt UI documentation and resources.",
+	"server": {
+		"url": "http://localhost:3000/mcp"
+	},
+	"commands": [
+		{
+			"name": "List Resources",
+			"description": "List all available Nuxt UI resources.",
+			"request": {
+				"type": "ListResourcesRequest"
+			}
+		},
+		{
+			"name": "Read Resource",
+			"description": "Read a specific Nuxt UI resource.",
+			"request": {
+				"type": "ReadResourceRequest",
+				"params": {
+					"uri": {
+						"type": "string",
+						"description": "The URI of the resource to read."
+					}
+				}
+			}
+		}
+	]
+}
