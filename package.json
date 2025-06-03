@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-ui-mcp",
+  "version": "1.0.0",
+  "description": "Nuxt UI MCP Server",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "nuxt-ui-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "start": "node dist/index.js",
+    "start:bg": "pm2 start dist/index.js --name nuxt-ui-mcp",
+    "stop:bg": "pm2 stop nuxt-ui-mcp",
+    "delete:bg": "pm2 delete nuxt-ui-mcp",
+    "logs:bg": "pm2 logs nuxt-ui-mcp",
+    "dev": "concurrently \"node dist/index.js\" \"npx @modelcontextprotocol/inspector\""
+  },
+  "keywords": [
+    "mcp",
+    "nuxt",
+    "ui"
+  ],
+  "author": "@katokdoescode",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.29",
+    "concurrently": "^9.1.2",
+    "typescript": "^5.8.3"
+  }
+}

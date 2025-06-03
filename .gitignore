@@ -1,0 +1,7 @@
+.DS_Store
+.cursor
+.windsurf
+.vscode
+.env
+/node_modules
+/dist
